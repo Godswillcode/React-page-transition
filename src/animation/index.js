@@ -1,9 +1,9 @@
 export const animationOne = {
     in: {
-      opacity: 1
+      opacity: 1,
     },
     out: {
-      opacity: 0
+      opacity: 0,
     }
   };
   
@@ -23,19 +23,21 @@ export const animationOne = {
   export const animationThree = {
     in: {
       opacity: 1,
-      x: -300
+      x: "-100vw"
     },
     out: {
       opacity: 0,
-      x: 300
+      x: "100vw"
     },
     end: {
       x: 0,
       opacity: 1
-    }
+    },
+  
   };
   
   export const transition = {
-    duration: 0.4
+    duration: 0.3,
+    stiffness: 50
   };
   

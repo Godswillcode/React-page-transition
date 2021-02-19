@@ -6,7 +6,8 @@ const Hero = () => {
   const config = {
     type: "spring",
     damping: 20,
-    stiffness: 100
+    stiffness: 100,
+    exit: {x: 0, opacity: 0 }
   };
     return (
       
@@ -16,7 +17,7 @@ const Hero = () => {
             <motion.h1  transition={config}
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          exit={{ x: 0, opacity: 0 }}>Welcome to react page transition</motion.h1>
+         >Welcome to react page transition</motion.h1>
           </div>
         </div>
       </div>
